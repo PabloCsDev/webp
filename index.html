@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notícias do Pablo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Portal Pablo News</h1>
+    <nav>
+      <a href="#noticia">Notícia</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="overlay">
+      <h2>Últimas Notícias</h2>
+      <p>Fique por dentro dos acontecimentos mais recentes do mundo tech.</p>
+    </div>
+  </section>
+
+  <main id="noticia" class="conteudo">
+    <article>
+      <div class="imagem-container">
+        <img src="imagens/noticia1.png" alt="Imagem notícia 1" />
+        <div class="overlay-noticia">
+          <h3>Tecnologia Web</h3>
+          <p>Em um mundo cada vez mais digital, o domínio da programação web se torna essencial. A tecnologia avança e o mercado busca profissionais criativos e adaptáveis, capazes de criar soluções responsivas e funcionais.</p>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="imagem-container">
+        <img src="imagens/noticia2.jpg" alt="Imagem notícia 2" />
+        <div class="overlay-noticia">
+          <h3>HTML,CSS e JavaScript</h3>
+          <p>Ferramentas como HTML, CSS e JavaScript formam a base da web moderna. Aprender a utilizá-las de forma eficiente abre portas para oportunidades em desenvolvimento front-end, design e UX/UI.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Pablo Carvalho </p>
+  </footer>
+</body>
+</html>
